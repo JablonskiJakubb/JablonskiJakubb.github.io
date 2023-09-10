@@ -1,0 +1,65 @@
+div{
+    background-color:whitesmoke;
+    height: 700px;
+    width: 1000px;
+    border-style: solid;
+    border-width:1px;
+    border: top 10px;
+        
+
+}
+
+body{
+    margin-left: 30vw;
+}
+
+.nav{
+    position: fixed;
+    text-align: center;
+    margin-left: -200px;
+    height: 25px;
+    width: 85px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+img#jeden{
+    height: 500x;
+    width: 673px;
+    border:2px;
+    border-style: solid;
+    border-color:firebrick ;
+    border-top-left-radius: 10%;
+    float: right;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+}
+img#trzy{
+    height: 500x;
+    width: 673px;
+    border:2px;
+    border-style: solid;
+    border-color:navy;
+    border-top-left-radius: 10%;
+    float: right;
+    border-right-width: 0px;
+       
+}
+
+h3{
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+}
+img#dwa{
+    height:100px;
+    width:150px;
+    margin:5px;
+}
+h1#dwa{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
