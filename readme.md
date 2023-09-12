@@ -1,3 +1,1 @@
-# GŁOSUJCIE NA JABŁONA!!!
-
-Tu w przyszłości będzie jego strona!
+# Projekt z 1 klasy na psi "Komis"
