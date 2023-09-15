@@ -25,6 +25,26 @@ body{
     padding-bottom: 50px;
 }
 
+.sekcjaFlex{
+    display: flex;
+}
+
+.sekcjaBox{
+    width: 45vw;
+}
+
+.margTopLeft{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.zdj{
+    width: 300px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
 #title{
     font-size: 4em;
     animation: rainbow 3s infinite;
@@ -32,13 +52,10 @@ body{
     background-color: rgb(224, 40, 40);
     border: 3px solid black;
     border-radius: 10px;
+    padding-bottom: 10px;
 }
 
-#zdjJab{
-    width: 300px;
-    border: 3px solid black;
-    border-radius: 10px;
-    margin-bottom: 5px;
+#obrot{
     animation: rotation 2s infinite;
 }
 
