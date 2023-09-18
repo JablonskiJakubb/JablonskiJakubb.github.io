@@ -112,3 +112,33 @@ body{
         transform: rotate(360deg);
     }
 }
+
+@media (orientation: portrait){
+
+    body{
+        font-size: small;
+    }
+
+    #zdjecia{
+        visibility: hidden;
+        display: flex;
+    }
+
+    #gornaSekcja{
+        width: 90vw;
+    }
+
+    #srodkowaSekcja{
+        display: block;
+        width: 90vw;
+    }
+
+    .naglowek{
+        width: 80vw;
+        text-align: center;
+    }
+
+    .text{
+        width: 75vw;
+    }
+}
