@@ -80,6 +80,10 @@ body{
     padding-bottom: 10px;
 }
 
+#haslo{
+    font-size: 50%;
+}
+
 #obrot{
     animation: rotation 2s infinite;
 }
