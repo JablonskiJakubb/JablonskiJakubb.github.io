@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@750&display=swap');
+
 body{
     background-color: #232948;
     color: white;
-    font-family: "Noto Sans";
+    font-family: 'Noto Sans', sans-serif;
     font-weight: bold;
-    overflow-x: hidden;
+    overflow-y: scroll; 
 }
 
 .center{
@@ -17,14 +19,14 @@ body{
 
 .naglowek{
     font-size: 3em;
-    padding-left: 50px;
+    margin-left: 3rem;
 }
 
 .text{
     font-size: 1.5em;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 50px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
 }
 
 .sekcjaFlex{
@@ -38,6 +40,13 @@ body{
 .margTopLeft{
     margin-top: 100px;
     margin-left: 50px;
+}
+
+.zdjJab{
+    width: 300px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-bottom: 5px;
 }
 
 .zdj{
@@ -163,12 +172,23 @@ body{
     }
 
     .naglowek{
+        margin-left: 1rem;
         padding-left: 0px;
         width: 80vw;
         text-align: center;
     }
 
     .text{
+        margin-left: 1rem;
         width: 75vw;
+    }
+
+    .margTopLeft{
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    
+    .zdj{
+        width: 0px;
     }
 }
