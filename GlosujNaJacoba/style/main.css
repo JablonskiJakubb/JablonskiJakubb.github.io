@@ -2,7 +2,7 @@
 
 body{
     background-color: #232948;
-    color: white;
+    color: #dfdfdf;
     font-family: 'Noto Sans', sans-serif;
     font-weight: bold;
     overflow-y: scroll; 
@@ -84,7 +84,7 @@ body{
     text-shadow: 5px 5px 5px black;
     background-color: rgba(89, 117, 213, 0.5);
     border: 3px solid black;
-    filter: drop-shadow(0px 0px 50px white);
+    filter: drop-shadow(0px 0px 50px #dfdfdf);
     border-radius: 10px;
     padding-bottom: 10px;
 }
@@ -106,7 +106,7 @@ body{
 #srodkowaSekcja{
     width: 90vw;
     background-color: rgba(89, 117, 213, 0.5);
-    filter: drop-shadow(0px 0px 50px white);
+    filter: drop-shadow(0px 0px 50px #dfdfdf);
     border: 3px solid black;
     border-radius: 10px;
     padding: 5px;
@@ -138,8 +138,6 @@ body{
     100%{
         color: rgb(255, 0, 0);
     }
-    
-    
 }
 
 @keyframes rotation{
@@ -163,23 +161,33 @@ body{
     }
 
     #gornaSekcja{
+        padding: 0px;
         width: 90vw;
     }
 
     #srodkowaSekcja{
         display: block;
+        padding: 0px;
         width: 90vw;
     }
 
+    #title{
+        font-size: 3em;
+    }
+
     .naglowek{
-        margin-left: 1rem;
+        font-size: 2.5em;
+        margin-left: 2rem;
+        margin-right: 2rem;
         padding-left: 0px;
         width: 80vw;
         text-align: center;
     }
 
     .text{
-        margin-left: 1rem;
+        font-size: 1.5em;
+        margin-left: 2rem;
+        margin-right: 2rem;
         width: 75vw;
     }
 
@@ -190,5 +198,9 @@ body{
     
     .zdj{
         width: 0px;
+    }
+
+    .zdjJab{
+        width: 200px;
     }
 }
