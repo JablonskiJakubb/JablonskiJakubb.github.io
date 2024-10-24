@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gra: Wyższa, Równa czy Niższa Wartość</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="players">
+            <div class="player" id="player1">
+                <div class="player-info">
+                    <h2 id="player1-name"></h2>
+                    <p id="player1-club"></p>
+                </div>
+                <img src="" alt="Zawodnik 1" id="player1-image">
+            </div>
+            <div class="player" id="player2">
+                <div class="player-info">
+                    <h2 id="player2-name"></h2>
+                    <p id="player2-club"></p>
+                </div>
+                <img src="" alt="Zawodnik 2" id="player2-image">
+            </div>
+        </div>
+        <h3> kto kosztuje wiecej?</h3>
+        <div id="buttons">
+            <button id="opcja_1">Wyższa</button>
+            <button id="opcja_2">Równa</button>
+            <button id="opcja_3">Niższa</button>
+        </div>
+        <div id="result"></div>
+        <div id="correct-count" style="font-size: 18px; color: white;">Poprawne odpowiedzi: 0</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
